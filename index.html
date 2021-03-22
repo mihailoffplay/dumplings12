@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПельмешиДобряши - пельмени ручной лепки</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+</head>
+
+<body>
+
+<header class="header">
+        <video autoplay loop muted class="bgvideo">
+            <source src="video/dumplings-video-2.mp4" type="video/mp4"></source>
+       </video>
+    <div class="menu_background">
+            <img src="images/header/logo.svg" alt="logo" class="logo_image">
+            <div class="burger">
+                <span></span>
+            <nav class="menu">
+                <a href="#" class="menu_item">Главная</a>
+                <a href="#product" class="menu_item">О нас</a>
+                <a href="#delivery" class="menu_item">Доставка</a>
+                
+            </nav>
+    </div>
+</header>
+
+<section class="greeting">
+    <h1 class="greeting_title">ПельмешиДобряши </h1>
+        <h2 class="greeting_subtitle">мастерская пельменей и вареников ручной лепки</h2>
+    <a class="greeting_button" href="#catalog">Выбрать</a>
+    <a class="greeting_number" href="tel:+78888888888">Или закажи по телефону 8(888) 888-88-88</a>
+    <!-- <img class="greeting_arrow" src="images/main_section/down-arrow.svg" alt="arrow"> -->
+    <div class="greeting_arrow">
+    </div>
+</section>
+
+
+<section class="fresh_food">
+    <h3 class="fresh_food_title">
+        Пельмени и вареники «ПельмяшиДобряши» 
+        производятся нами только вручную и только из самых качественных и свежих продуктов
+    </h3>
+      <div class="slider">
+        <div class="slide">
+            <div class="slide-image"><img src="images/slider/chicken_dumplings.jpg"></div>
+            <div class="slide-text">Сочные и ароматные пельмени с курицей</div>
+        </div>
+        <div class="slide">
+            <div class="slide-image"><img src="images/slider/pork_dumplings.jpg"></div>
+            <div class="slide-text">Сочные и ароматные пельмени со свининой</div>
+        </div>
+        <div class="slide">
+            <div class="slide-image"><img src="images/slider/beef_dumplings.jpg"></div>
+            <div class="slide-text">Сочные и ароматные пельмени с говядиной</div>
+        </div>
+    </div>
+</section>
+
+<div class="background">
+<section class="product" id="product">
+    <h2 class="product_title">Мы накормим Вас, пожалуй, самыми вкусными пельменями и варениками.</h2>
+    <div class="product-grid">
+        <div class="grid">
+                <img class="grid-image" src="images/quality/ecology.svg" alt="Экологичность">
+            <p class="grid-title">Экологичные ингридиенты</p>
+            <p class="grid_subtitle">Для наших пельменей и вареников мы используем 
+            экологически чистые ингредиенты</p>
+        </div>
+        <div class="grid">
+                <img class="grid-image" src="images/quality/packing.svg" alt="Упаковка">
+            <p class="grid-title">Удобная упаковка</p>
+            <p class="grid_subtitle">Мы упаковываем нашу продукцию в удобную тару</p>
+        </div>
+        <div class="grid">
+                <img class="grid-image" src="images/quality/quality.svg" alt="Качество">
+            <p class="grid-title">Качество</p>
+            <p class="grid_subtitle">Все наши продукты созданы вручную и делаются с вниманием и любовью</p>
+        </div>
+    </div>
+</section>
+
+<section class="catalog" id="catalog">
+    <p class="catalog_main-title">Каталог товаров</p>
+    <div class="grid-catalog">
+        <div class="catalog_item">
+            <a class="fancybox" rel="gallery1" href="images/catalog/chicken.jpg" title="Twilight Memories (doraartem)">
+                <img class="catalog_image" src="images/catalog/chicken_m.jpg" alt="" />
+            </a>
+            <p class="catalog_title">Состав</p>
+            <p class="catalog_description">
+                Фарш: мясо птицы, лук репчатый, соль, перец черный молотый.</p>
+                <p class="catalog_structure">Тесто: мука пшеничная высшего сорта, вода питьевая, яйцо куриное, соль.</p>
+            <p class="catalog_cost">450 рублей - 1 кг</p>
+            <button class="order_button">Заказать</button>
+        </div>
+        <div class="catalog_item">
+            <a class="fancybox" rel="gallery1" href="images/catalog/beef.jpg" title="Twilight Memories (doraartem)">
+                <img class="catalog_image" src="images/catalog/beef_m.jpg" alt="" />
+            </a>
+            <p class="catalog_title">Состав</p>
+            <p class="catalog_description">
+                Фарш: говядина, лук репчатый, соль, перец черный молотый.</p>
+                <p class="catalog_structure">Тесто: мука пшеничная высшего сорта, вода питьевая, яйцо куриное, соль.</p>
+            <p class="catalog_cost">450 рублей - 1 кг</p>
+            <button class="order_button">Заказать</button>
+        </div>
+        <div class="catalog_item">
+            <a class="fancybox" rel="gallery1" href="images/catalog/pork.jpg" title="Twilight Memories (doraartem)">
+                <img class="catalog_image" src="images/catalog/pork_m.jpg" alt="" />
+            </a>
+            <p class="catalog_title">Состав</p>
+            <p class="catalog_description">
+                Фарш: свинина, лук репчатый, соль, перец черный молотый.</p>
+                <p class="catalog_structure">Тесто: мука пшеничная высшего сорта, вода питьевая, яйцо куриное, соль.</p>
+            <p class="catalog_cost">450 рублей - 1 кг</p>
+            <button class="order_button">Заказать</button>
+        </div>
+        <div class="catalog_item">
+            <a class="fancybox" rel="gallery1" href="images/catalog/pork_beef.jpg" title="Twilight Memories (doraartem)">
+                <img class="catalog_image" src="images/catalog/pork_beef_m.jpg" alt="" />
+            </a>
+            <p class="catalog_title">Состав</p>
+            <p class="catalog_description">
+                Фарш: свинина-говядина, лук репчатый, соль, перец черный молотый.</p>
+                <p class="catalog_structure">Тесто: мука пшеничная высшего сорта, вода питьевая, яйцо куриное, соль.</p>
+            <p class="catalog_cost">450 рублей - 1 кг</p>
+            <button class="order_button">Заказать</button>
+        </div>
+    </div>
+</section>
+</div>
+<section class="delivery" id="delivery">
+    
+        <p class="delivery_main">ДОСТАВКА</p> 
+        <p class="delivery_title">замороженных полуфабрикатов в Йошкар-Оле</p>
+    
+    <div class="product-grid">
+        <div class="grid">
+                <img class="grid-image" src="images/delivery/shipped.svg" alt="Экологичность">
+            <p class="grid-title">Заказ доставим в течении дня</p>
+        </div>
+        <div class="grid">
+                <img class="grid-image" src="images/delivery/free_delivery.svg" alt="Упаковка">
+            <p class="grid-title">Доставка от 1000 рублей бесплатна</p>
+        </div>
+        <div class="grid">
+                <img class="grid-image" src="images/delivery/paid_delivery.svg" alt="Качество">
+            <p class="grid-title">Доставка до 1000 рублей будет стоить 150 рублей</p>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+        <div class="order_phone">
+            <img class="phone_image" src="images/footer/phone.svg" alt="Phone">
+            <a class="text_phone" href="tel:+78888888888">Телефон: 8(800) 888 88 88 </a>
+            <button data-modal="feedback" class="faq_button">Обратная связь</button>
+        </div>
+        <div class="footer_logo">
+            <img class="footer_image" src="images/header/logo.svg" alt="logo">
+            <p class="copyright">©2021 Все права защищены.</p>
+        </div>
+        <div class="footer_info">
+            <p class="info_title">
+                Интернет-магазин эко продуктов.
+            </p>
+            <p class="info_subtitle">
+                ИП: ОСТАПЕЦ М.С <br>
+                ОГРН: 888888888888888
+            </p>
+        </div>
+</footer>
+
+<div id="upbutton"></div>
+
+<div class="overlay">
+    <div class="modal" id="feedback">
+        <div class="modal_close">&times;</div>
+        <div class="modal_image">
+            <img src="images/header/logo.svg" alt="Modal logo" class="modal_image"></div>
+        <div class="modal_title">Форма обратной связи</div>
+        <form action="/" class="modal_form" onsubmit="send(event, 'send.php')">
+            <input class="modal_text" type="text" name="name"
+                   placeholder="Введите ФИО">
+            <input class="modal_text" type="email" name="email"
+                   placeholder="Ваш email">
+            <input class="modal_text" type="phone" name="phone"
+                   placeholder="Ваш номер">
+            <textarea class="modal_textarea" name="" id="" cols="30" rows="10"></textarea>
+                    
+            <div class="feedback_confirm">
+                <input type="checkbox" class="feedback-checkbox" id="agreement" name="happy" value="yes">
+                    <label for="agreement">
+                        <a href="/agreement.html" class="agreement_link">Согласен на обработку персональных данных</a>
+                    </label>
+            </div>
+            <button id="popup_button_inside" type="submit" value="Отправить" type="submit" class="modal_button">
+                    Отправить сообщение
+            </button>
+        </form>
+    </div>
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
