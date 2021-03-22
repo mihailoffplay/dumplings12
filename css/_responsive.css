@@ -1,0 +1,790 @@
+@media screen and (max-width: 1800px) 
+{
+    .header
+    {
+        width: 1740px;
+    }
+
+}
+
+@media screen and (max-width: 1440px)
+{
+    .header
+    {
+        width: 1240px;
+    }
+
+    .greeting
+    {
+        width: 1240px;
+    }
+
+    .fresh_food
+    {
+        width: 1240px;
+    }
+
+    .product
+    {
+        width: 1240px;
+    }
+    
+    .catalog
+    {
+        width: 1240px;
+    }
+
+    .delivery
+    {
+        width: 1240px;
+    }
+
+    .footer
+    {
+        width: 1240px;
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    .header
+    {
+        width: 1015px;
+    }
+
+    .menu_item
+    {
+        padding-left: 40px;
+    }
+
+    .menu_background
+    {
+        width: 1015px;
+    }
+
+    .greeting
+    {
+        width: 1015px;
+    }
+
+    .fresh_food
+    {
+        width: 1015px;
+    }
+
+    .slider
+    {
+        width: 780px;
+    }
+
+    .product
+    {
+        width: 1015px;
+    }
+
+    .product-grid
+    {
+        width: 1015px;
+        grid-gap: 5px;
+    }
+
+    .grid
+    {
+        width: 250px;
+    }
+    
+    .catalog
+    {
+        width: 1015px;
+    }
+
+    .grid-catalog
+    {
+        width: 680px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .catalog_item
+    {
+        width: 300px;
+    }
+
+    .delivery
+    {
+        width: 1015px;
+    }
+
+    .grid-title
+    {
+        font-size: 18px;
+    }
+
+    .footer
+    {
+        width: 1015px;
+    }
+
+    .footer_image
+    {
+        width: 150px;
+    }
+
+    .copyright
+    {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 992px)
+{
+    .header
+    {
+        width: 900px;
+    }
+
+
+
+    .menu_background
+    {
+        left: 0;
+        width: 840px;
+    }
+
+    .menu
+    {
+        width: 610px;
+    }
+
+    .fresh_food
+    {
+        width: 940px;
+    }
+
+    .fresh_food_title
+    {
+        font-size: 32px;
+    }
+
+    .slider
+    {
+        width: 680px;
+    }
+
+    .grid
+    {
+        width: 700px;
+    }
+
+    .product-grid
+    {
+        grid-template-columns: repeat(1, 1fr);
+        width: 700px;
+        grid-gap: 40px;
+    }
+
+    .grid-image
+    {
+        width: 200px;
+        height: 150px;
+
+    }
+
+    .grid-title
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .grid_subtitle
+    {
+        font-size: 28px;
+        line-height: 30px;
+        width: 700px;
+    }
+
+    .delivery_title
+    {
+        width: 700px;
+    }
+
+    .logo_image
+    {
+        width: 150px;
+        height: 75px;
+    }
+
+    .footer
+    {
+        width: 900px;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+    /* .background
+    {
+        background-size: 300%;
+    } */
+
+    .menu
+    {
+        display: none;
+    }
+
+    .header
+    {
+        margin: 0;
+    }
+
+    .menu_background
+    {
+        opacity: 1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu.active
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        overflow: hidden;
+        background-color: #fff;
+        opacity: 1;
+        z-index: 15;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 85px;
+        transition: all .5 ease-in-out;
+        animation: 3s linear infinite -1.5s;
+    }
+
+    .button_menu
+    {
+        display: none;
+    }
+
+    .menu_item
+    {
+        font-size: 32px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .menu_basket
+    {
+        display: none;
+    }
+
+    .menu_item a:hover
+    {
+        border-bottom: 1px solid #f4a460;
+    }
+    
+    .burger
+    {
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .burger span, .burger span:before, .burger span:after
+    {
+      width: 100%;
+      position: absolute;
+      height: 8px;
+      background: #f4a460;
+      display: block;
+      transition: .3s;
+      border-radius: 5px;
+    }
+    .burger span:before{
+      content: "";
+      top: -20px;
+      transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .burger span{
+      top: 20px;
+    }
+    .burger span:after{
+      content: "";
+      bottom: -20px;
+      transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .burger span.active:before{
+      content: "";
+      top: 0px;
+      transform: rotate(45deg);
+      transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .burger span.active:after{
+      content: "";
+      bottom: 0;
+      transform: rotate(-45deg);
+      transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .burger span.active{
+      background: rgba(255, 255, 255, 0);
+      z-index: 20;
+    }
+
+    .greeting
+    {
+        width: 700px;
+    }
+
+    .greeting_title
+    {
+        font-size: 52px;
+    }
+
+    .greeting_subtitle
+    {
+        font-size: 22px;
+    }
+    
+    .greeting_number
+    {
+        width: 600px;
+        font-size: 36px;
+    }
+
+    .fresh_food
+    {
+        width: 700px;
+    }
+
+    .fresh_food_title
+    {
+        font-size: 26px;
+    }
+
+    .slider
+    {
+        width: 90%;
+    }
+
+    .product
+    {
+        width: 700px;
+    }
+
+    .catalog 
+    {
+        width: 600px;
+    }
+    
+    .grid-catalog
+    {
+        width: 600px;
+    }
+
+    .delivery
+    {
+        width: 600px;
+    }
+
+    .delivery_title
+    {
+        width: 600px;
+        font-size: 32px;
+    }
+
+    .product-grid
+    {
+        width: 600px;
+    }
+
+    .grid
+    {
+        width: 600px;
+    }
+
+    .footer
+    {
+        width: 780px;
+    }
+
+    #upbutton
+    {
+        right: 5%;
+    }
+
+
+    
+
+
+
+
+}
+
+@media screen and (max-width: 480px)
+{
+    .header
+    {
+        width: 480px;
+    }
+    .greeting
+    {
+        width: 420px;
+    }
+
+    .greeting_title
+    {
+        font-size: 38px;
+    }
+
+    .greeting_subtitle
+    {
+        font-size: 22px;
+    }
+
+    .greeting_button
+    {
+        padding: 25px 130px;
+    }
+    
+    .greeting_number
+    {
+        width: 280px;
+        font-size: 30px;
+    }
+
+    .fresh_food
+    {
+        width: 420px;
+    }
+
+    .fresh_food_title
+    {
+        font-size: 26px;
+    }
+
+    .slider
+    {
+        width: 420px;
+    }
+
+    .slick-next
+    {
+        display: none;
+    }
+
+    .slick-prev
+    {
+        display: none;
+    }
+
+    .product
+    {
+        width: 420px;
+    }
+
+    .product_title
+    {
+        width: 420px;
+        font-size: 30px;
+    }
+
+    .grid
+    {
+        width: 420px;
+    }
+
+    .grid_subtitle
+    {
+        width: 420px;
+    }
+
+    .catalog 
+    {
+        width: 420px;
+    }
+    
+    .grid-catalog
+    {
+        width: 300px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .delivery
+    {
+        width: 420px;
+    }
+
+    .delivery_title
+    {
+        width: 420px;
+        font-size: 32px;
+    }
+
+    .product-grid
+    {
+        width: 420px;
+    }
+
+    .grid
+    {
+        width: 420px;
+    }
+
+    .footer
+    {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+
+    .order_phone
+    {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .footer_logo
+    {
+        flex-flow: wrap;
+        order: 3;
+        padding: 0;
+    }
+
+    .footer_info
+    {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .modal
+    {
+        width: 320px;
+    }
+
+    .modal_title
+    {
+        font-size: 22px;
+    }
+
+    .modal_text
+    {
+        width: 300px;
+    }
+
+    .modal_textarea
+    {
+       max-width: 300px;
+       min-width: 300px;
+    }
+
+    .modal_button
+    {
+        width: 320px;
+    }
+
+    #upbutton
+    {
+        right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 320px)
+{
+    .header
+    {
+        width: 320px;
+    }
+    .greeting
+    {
+        width: 300px;
+    }
+
+    .greeting_title
+    {
+        font-size: 26px;
+    }
+
+    .greeting_subtitle
+    {
+        font-size: 18px;
+    }
+
+    .greeting_button
+    {
+        padding: 15px 60px;
+        width: 300px;
+    }
+    
+    .greeting_number
+    {
+        width: 280px;
+        font-size: 30px;
+    }
+
+    .fresh_food
+    {
+        width: 300px;
+    }
+
+    .fresh_food_title
+    {
+        font-size: 26px;
+    }
+
+    .slider
+    {
+        width: 300px;
+    }
+
+    .slick-next
+    {
+        display: none;
+    }
+
+    .slick-prev
+    {
+        display: none;
+    }
+
+    .product
+    {
+        width: 300px;
+    }
+
+    .product_title
+    {
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .grid
+    {
+        width: 300px;
+    }
+
+    .grid-image
+    {
+        width: 90px;
+    }
+
+    .grid-title
+    {
+        font-size: 26px;
+    }
+
+    .grid_subtitle
+    {
+        width: 300px;
+        font-size: 24px;
+    }
+
+    .catalog 
+    {
+        width: 300px;
+    }
+    
+    .grid-catalog
+    {
+        width: 300px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .delivery
+    {
+        width: 300px;
+    }
+
+    .delivery_title
+    {
+        width: 300px;
+        font-size: 32px;
+    }
+
+    .product-grid
+    {
+        width: 300px;
+    }
+
+    .grid
+    {
+        width: 300px;
+    }
+
+    .footer
+    {
+        width: 100%;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+
+    .order_phone
+    {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .text_phone
+    {
+        font-size: 16px;
+    }
+
+    .footer_logo
+    {
+        flex-flow: wrap;
+        order: 3;
+        padding: 0;
+    }
+
+    .footer_info
+    {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+
+    .modal
+    {
+        width: 280px;
+    }
+
+    .modal_title
+    {
+        font-size: 22px;
+    }
+
+    .modal_text
+    {
+        width: 260px;
+    }
+
+    .modal_textarea
+    {
+       max-width: 260px;
+       min-width: 260px;
+    }
+
+    .modal_button
+    {
+        width: 280px;
+    }
+
+    #upbutton
+    {
+        right: 5%;
+    }
+
+}
+
