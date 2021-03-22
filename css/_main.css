@@ -139,7 +139,7 @@ height: 100%;
 .greeting
 {
     text-align: center;
-    color:#ffffff;
+    color: #ffffff;
     margin: 0 auto;
 }
 
@@ -148,6 +148,7 @@ height: 100%;
     text-align: center;
     font-size: 70px;
     font-weight: bold;
+  	color: #ffffff;
 }
 
 .greeting_subtitle
@@ -155,6 +156,7 @@ height: 100%;
     font-size: 26px;
     margin-bottom: 140px;
     font-weight: normal;
+  	color: #ffffff;
 }
 
 .greeting_button
@@ -331,12 +333,17 @@ height: 100%;
     margin: 0 auto;
 }
 
+.grid
+{
+  margin: 0 auto;
+}
+
 .grid-image
 {
     width: 100px;
     height: 85px;
     color: rgb(255, 255, 255);
-    margin-bottom: 25px;
+    margin: 0 auto 25px auto;
 }
 
 .grid-title
@@ -380,7 +387,7 @@ height: 100%;
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    grid-gap: 25px;
     text-align: center;
     width: 1200px;
     margin: 0 auto;
@@ -389,8 +396,9 @@ height: 100%;
 .catalog_item
 {
     background-color: #f4a460;
-    width: 250px;
+    width: 240px;
     border-radius: 10px;
+    height: 105%;
 }
 
 .catalog_image
@@ -398,6 +406,7 @@ height: 100%;
     width: 200px;
     padding: 20px;
     border-radius: 25px;
+ 	margin: 0 auto;
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
@@ -420,18 +429,21 @@ height: 100%;
 {
     padding: 5px;
     font: 700 16px/20px 'Montserrat', sans-serif;
+  	color: #000;
 }
 
 .catalog_description
 {
     padding: 15px;
     text-align: left;
+  	color: #000;
 }
 
 .catalog_structure
 {
     padding: 15px;
     text-align: left;
+  	color: #000;
 }
 
 .catalog_cost
@@ -446,6 +458,7 @@ height: 100%;
     padding: 10px 50px;
     border-radius: 10px;
     background-color: #fff;
+  	color: #000;
     font: 400 24px/30px 'Montserrat', sans-serif;
     margin-bottom: 25px;
     -moz-transition: all .5s ease-out;

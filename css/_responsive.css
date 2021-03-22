@@ -431,16 +431,16 @@
 {
     .header
     {
-        width: 480px;
+        width: 90%;
     }
     .greeting
     {
-        width: 420px;
+        width: 90%;
     }
 
     .greeting_title
     {
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .greeting_subtitle
@@ -450,28 +450,28 @@
 
     .greeting_button
     {
-        padding: 25px 130px;
+        padding: 18px 50px;
     }
     
     .greeting_number
     {
-        width: 280px;
-        font-size: 30px;
+        width: 90%;
+        font-size: 24px;
     }
 
     .fresh_food
     {
-        width: 420px;
+        width: 90%;
     }
 
     .fresh_food_title
     {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .slider
     {
-        width: 420px;
+        width: 90%;
     }
 
     .slick-next
@@ -486,55 +486,60 @@
 
     .product
     {
-        width: 420px;
+        width: 90%;
     }
 
     .product_title
     {
-        width: 420px;
-        font-size: 30px;
+        width: 90%;
+        font-size: 24px;
     }
 
     .grid
     {
-        width: 420px;
+        width: 90%;
     }
 
     .grid_subtitle
     {
-        width: 420px;
+        width: 90%;
     }
 
     .catalog 
     {
-        width: 420px;
+        width: 90%;
     }
     
     .grid-catalog
     {
-        width: 300px;
+        width: 90%;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .catalog_item
+    {
+        width: 90%;
     }
 
     .delivery
     {
-        width: 420px;
+        width: 90%;
     }
 
     .delivery_title
     {
-        width: 420px;
-        font-size: 32px;
+        width: 90%;
+        font-size: 26px;
     }
 
     .product-grid
     {
-        width: 420px;
+        width: 90%;
     }
 
     .grid
     {
-        width: 420px;
+        width: 90%;
     }
 
     .footer
@@ -607,12 +612,12 @@
     }
     .greeting
     {
-        width: 300px;
+        width: 200px;
     }
 
     .greeting_title
     {
-        font-size: 26px;
+        font-size: 34px;
     }
 
     .greeting_subtitle
@@ -622,29 +627,60 @@
 
     .greeting_button
     {
-        padding: 15px 60px;
-        width: 300px;
+        padding: 10px 20px;
+        width: 150px;
     }
     
     .greeting_number
     {
-        width: 280px;
-        font-size: 30px;
+        width: 200px;
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    .storefront-sorting {
+        border-style: dotted;
+        border-width: 2px 0;
+        border-color: rgba(255, 255, 255, 0.1);
+        padding-top: 1em;
+        padding-bottom: 1em;
     }
 
     .fresh_food
     {
-        width: 300px;
+        width: 200px;
+        margin-bottom: 20px;
     }
 
     .fresh_food_title
     {
-        font-size: 26px;
+        font-size: 19px;
+    }
+
+    .slick-slider
+    {
+        margin: 0 auto;
+    }
+    
+    style
+    {
+        display: none;
     }
 
     .slider
     {
-        width: 300px;
+        width: 200px;
+        margin: 50px auto;
+    }
+
+    .slide-text 
+    {
+        font: 600 14px/16px 'Montserrat', sans-serif;
+    }
+
+    .slick-next .material-icons .white .slick-arrow
+    {
+        display: none;
     }
 
     .slick-next
@@ -659,66 +695,123 @@
 
     .product
     {
-        width: 300px;
+        width: 200px;
     }
 
     .product_title
     {
-        width: 300px;
-        font-size: 30px;
+        width: 200px;
+        font-size: 14px;
+        margin-bottom: 18px;
     }
 
     .grid
     {
-        width: 300px;
+        width: 200px;
     }
 
     .grid-image
     {
-        width: 90px;
+        width: 60px;
+        margin-bottom: 15px;
     }
 
     .grid-title
     {
-        font-size: 26px;
+        font-size: 21px;
+        line-height: none;
     }
 
     .grid_subtitle
     {
-        width: 300px;
-        font-size: 24px;
+        width: 200px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .catalog 
     {
-        width: 300px;
+        width: 200px;
+    }
+
+    .catalog_title
+    {
+        margin-bottom: 14px;
+    }
+
+    .catalog_description
+    {
+        margin-bottom: 10px;
+    }
+
+    .catalog_item
+    {
+        width: 200px;
+    }
+
+    .catalog_cost
+    {
+        font: 700 18px/26px 'Montserrat', sans-serif;
+        color: #000;
+    }
+
+    .order_button {
+        border: none;
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #000;
+        font: 400 18px/22px 'Montserrat', sans-serif;
+        margin-bottom: 25px;
+        -moz-transition: all .5s ease-out;
+        -o-transition: all .5s ease-out;
+        -webkit-transition: all .5s ease-out;
+        background-image: linear-gradient(transparent 50%, rgb(224, 211, 211) 50%);
+        background-size: 200% 200%;
+        background-repeat: no-repeat;
+        transition: .2s;
     }
     
     .grid-catalog
     {
-        width: 300px;
+        width: 200px;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .delivery
     {
-        width: 300px;
+        width: 200px;
+        
+    }
+
+    .delivery_main
+    {
+        font-size: 26px;
     }
 
     .delivery_title
     {
-        width: 300px;
-        font-size: 32px;
+        width: 200px;
+        font-size: 18px;
+        margin-bottom: 15px;
+        line-height: none;
     }
 
     .product-grid
     {
-        width: 300px;
+        width: 200px;
+        grid-gap: 5px;
     }
 
     .grid
     {
-        width: 300px;
+        width: 200px;
+    }
+
+    .grid-title
+    {
+        font-size: 16px;
+        line-height: none;
     }
 
     .footer
